@@ -4,7 +4,7 @@ region = "ap-southeast-1"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-06018068a18569ff2"
+  ami             = "ami-0ebcd68de1afe59cd"
   instance_type   = "t2.micro"
   key_name        = "rahamabc"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -23,7 +23,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-06018068a18569ff2"
+  ami             = "ami-0ebcd68de1afe59cd"
   instance_type   = "t2.micro"
   key_name        = "rahamabc"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -42,7 +42,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-06018068a18569ff2"
+  ami             = "ami-0ebcd68de1afe59cd"
   instance_type   = "t2.micro"
   key_name        = "rahamabc"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -53,7 +53,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-06018068a18569ff2"
+  ami             = "ami-0ebcd68de1afe59cd"
   instance_type   = "t2.micro"
   key_name        = "rahamabc"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -88,7 +88,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "devopsbyrahamterraserverbucket9988oo9988"
+  bucket = "sujithterrrabucket1"
 }
 
 resource "aws_iam_user" "seven" {
